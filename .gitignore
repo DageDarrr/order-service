@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Папки зависимостей
+node_modules/
+jspm_packages/
+vendor/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+/temp/
+
+# Переменные окружения (секреты!)
+.env
+.env.local
+.env.*.local
+
+# Результаты сборки
+dist/
+build/
+/bin/
+/obj/
+
+venv
+.venv
